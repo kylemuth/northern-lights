@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Southern Lights</title>
+  </head>
+  <body>
+    <div class="navwrapper">
+      <nav>
+        <div class="nav-left">
+          <p>Northern Lights</p>
+        </div>
+        <div class="nav-right">
+          <ul>
+            <li><a href="#" class="nav-about">About</a></li>
+            <li><a href="#" class="nav-plans">Plans</a></li>
+            <li><a href="#" class="nav-contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="hero-wrapper">
+      <div class="left-hero">
+        <div class="entry-form">
+          <h2>Application Form</h2>
+          <form class="form" name="form">
+            <div class="form__row">
+              <label class="form__label">Select Lights Type:</label>
+              <select id="light_type" name="typeoflights">
+                <option value="whitelights">White Lights</option>
+                <option value="yellowlights">Yellow Lights</option>
+              </select>
+            </div>
+            <div class="form__row">
+              <label class="form__label">Select Approximate Length:</label>
+              <select id="light_length" name="lengthoflights">
+                <option value="twenty">20ft</option>
+                <option value="thirty">30ft</option>
+                <option value="forty">40ft</option>
+                <option value="fifty">50ft</option>
+                <option value="sixty">60ft</option>
+                <option value="seventy">70ft</option>
+                <option value="eighty">80ft</option>
+                <option value="ninety">90ft</option>
+                <option value="hundred">100ft</option>
+              </select>
+            </div>
+            <div class="form__row">
+              <label class="form__label">Select Rental Duration:</label>
+              <select id="rental_length" name="rentallength">
+                <option value="two">2 Weeks</option>
+                <option value="three">3 Weeks</option>
+                <option value="four">4 Weeks</option>
+                <option value="five">5 Weeks</option>
+                <option value="six">6 Weeks</option>
+                <option value="seven">7 Weeks</option>
+                <option value="eight">8 Weeks</option>
+              </select>
+            </div>
+            <button class="form__btn">Calculate Cost!</button>
+          </form>
+          <p class="total_cost">Total Cost:</p>
+        </div>
+      </div>
+      <div class="right-hero">
+        <div class="map">
+          <h2>Some Map Here</h2>
+        </div>
+      </div>
+    </div>
+    <div class="blur hidden"></div>
+    <div class="modal-about hidden">
+      <h3>About Us!</h3>
+      <p>
+        Christmas has always been about spreading happiness and bringing us all
+        back to when we were kids. Here at Northern Lights we try to re-create
+        that experience through visual representations while adding a little bit
+        of Christmas cheer to your home.
+      </p>
+    </div>
+    <div class="modal-plans hidden">
+      <h3>About Us!</h3>
+      <p>
+        Christmas has always been about spreading happiness and bringing us all
+        back to when we were kids. Here at Southern Lights we try to re-create
+        that experience through visual representations while adding a little bit
+        of Christmas cheer to your home.
+      </p>
+    </div>
+    <div class="modal-contact hidden">
+      <h3>About Us!</h3>
+      <p>
+        Christmas has always been about spreading happiness and bringing us all
+        back to when we were kids. Here at Southern Lights we try to re-create
+        that experience through visual representations while adding a little bit
+        of Christmas cheer to your home.
+      </p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

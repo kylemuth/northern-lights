@@ -6,8 +6,6 @@
 
 /* body's background */
 body {
-  font-family: "Nerko One", cursive;
-
   height: 100vh;
   width: 100vw;
   background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.75)),
@@ -40,6 +38,8 @@ nav {
 }
 
 nav p {
+  font-family: "Italiana", serif;
+
   font-weight: bold;
   font-size: 2.2rem;
   color: rgba(255, 255, 255, 0.8);
@@ -63,6 +63,8 @@ nav p {
 }
 
 .nav-right a {
+  font-family: "Italiana", serif;
+
   text-decoration: none;
   color: white;
 }
@@ -77,6 +79,7 @@ nav p {
   height: 92vh;
   width: 100vw;
   display: flex;
+  font-family: "Roboto", sans-serif;
 }
 
 .left-hero,
@@ -95,7 +98,7 @@ nav p {
 
 .entry-form h2 {
   font-size: 3rem;
-  padding-bottom: 5px;
+  padding: 20px 0;
   border-bottom: 4px solid rgba(255, 0, 0, 0.686);
 }
 

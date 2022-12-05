@@ -111,6 +111,7 @@ const retrieveFormData = function () {
 
 // This function will take the total cost calculated from above (it will later be used on the button event handler function in order to properly use it)
 const newTotal = function () {
+  document.querySelector(".total_cost").innerHTML = "Total Cost: ";
   document
     .querySelector(".total_cost")
     .insertAdjacentHTML("beforeend", ` $${cost}`);
